@@ -8,4 +8,7 @@ export const paths = {
   signUp() {
     return "/cadastro";
   },
+  announcment() {
+    return "/anuncio";
+  },
 };

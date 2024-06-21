@@ -1,3 +1,4 @@
+import { paths } from "@/paths";
 import { Button } from "@nextui-org/react";
 import Link from "next/link";
 import React from "react";
@@ -14,7 +15,7 @@ function Header() {
 
         <div>
           <Button
-            href="#"
+            href={paths.announcment()}
             variant="ghost"
             as={Link}
             className="text-white"
